@@ -1,1 +1,1 @@
-web: python3 cloud_app.py
+web: gunicorn cloud_app:app
